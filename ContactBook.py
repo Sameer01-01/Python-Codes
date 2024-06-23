@@ -12,7 +12,6 @@ def add_contact():
     phone = input("Enter phone number: ")
     contacts[name] = phone
     print("Contact added successfully.")
-
 def remove_contact():
     name = input("Enter name of the contact to remove: ")
     if name in contacts:
